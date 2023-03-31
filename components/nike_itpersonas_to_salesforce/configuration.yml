@@ -1,0 +1,7 @@
+description: This component is a workflow designed to move data from Nike IT personas
+  to Salesforce. It first takes the access token input for accessing the LinkedIn
+  API and an object input of Salesforce credentials (username, password, security
+  token, client_id, and client_secret). Then, it adds the persona data into Salesforce
+  and outputs the result of the operation.
+name: NikeITPersonasToSalesforce
+parameters: {}
