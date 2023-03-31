@@ -1,5 +1,7 @@
 description: Using the LinkedIn API, this component fetches information about personas
   from Nike's IT department. The AccessToken input is passed as an authorization header
   to make the request.
+input-class: FetchNikeITPersonasInputDict
 name: FetchNikeITPersonas
+output-class: FetchNikeITPersonasOutputDict
 parameters: {}
