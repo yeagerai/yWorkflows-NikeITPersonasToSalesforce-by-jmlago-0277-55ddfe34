@@ -1,5 +1,7 @@
 description: This component processes the personas data from FetchNikeITPersonas,
   extracting their names and email addresses, and sends the extracted information
   to Salesforce.
+input-class: PersonasData
 name: ExtractNameAndEmail
+output-class: NamesAndEmails
 parameters: {}
