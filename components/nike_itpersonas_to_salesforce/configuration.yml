@@ -3,5 +3,7 @@ description: This component is a workflow designed to move data from Nike IT per
   API and an object input of Salesforce credentials (username, password, security
   token, client_id, and client_secret). Then, it adds the persona data into Salesforce
   and outputs the result of the operation.
+input-class: AccessToken
 name: NikeITPersonasToSalesforce
+output-class: SalesforceCredentials
 parameters: {}
